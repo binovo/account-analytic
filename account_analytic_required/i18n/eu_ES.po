@@ -6,23 +6,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: eu_ES\n"
+"POT-Creation-Date: 2025-11-21 12:46+0000\n"
+"PO-Revision-Date: 2025-11-21 12:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: \n"
 
 #. module: account_analytic_required
 #: model:ir.model,name:account_analytic_required.model_account_account
 msgid "Account"
-msgstr ""
+msgstr "Kontua"
 
 #. module: account_analytic_required
 #: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__analytic_policy__always
 msgid "Always"
-msgstr ""
+msgstr "Beti"
 
 #. module: account_analytic_required
 #. odoo-python
@@ -32,6 +33,7 @@ msgid ""
 "Analytic policy is set to 'Always' with account '%(account)s' but the "
 "analytic account is missing in the account move line with label '%(move)s'."
 msgstr ""
+"Analisi-politika \"Beti\" gisa dago konfiguratuta '%(account)s' konturako, baina '%(move)s' etiketa duen kontuko mugimendu-lerroan kontu-analisia falta da."
 
 #. module: account_analytic_required
 #. odoo-python
@@ -42,6 +44,7 @@ msgid ""
 " move line with label '%(move)s' has an analytic account "
 "'%(analytic_account)s'."
 msgstr ""
+"Analisi-politika \"Inoiz ez\" gisa dago konfiguratuta '%(account)s' konturako, baina'%(move)s' etiketa duen kontuko mugimendu-lerroak '%(analytic_account)s' analisi-kontua du."
 
 #. module: account_analytic_required
 #. odoo-python
@@ -51,31 +54,32 @@ msgid ""
 "Analytic policy is set to 'Posted moves' with account '%(account)s' but the "
 "analytic account is missing in the account move line with label '%(move)s'."
 msgstr ""
+"Analisi-politika \"Argitaratutako mugimenduak\" gisa dago konfiguratuta '%(account)s' konturako, baina '%(move)s' etiketa duen kontuko mugimendu-lerroan kontu-analisia falta da."
 
 #. module: account_analytic_required
 #: model:ir.model,name:account_analytic_required.model_account_move
 msgid "Journal Entry"
-msgstr ""
+msgstr "Egunkariko idazpena"
 
 #. module: account_analytic_required
 #: model:ir.model,name:account_analytic_required.model_account_move_line
 msgid "Journal Item"
-msgstr ""
+msgstr "Egunkariko oharra"
 
 #. module: account_analytic_required
 #: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__analytic_policy__never
 msgid "Never"
-msgstr ""
+msgstr "Inoiz ez"
 
 #. module: account_analytic_required
 #: model:ir.model.fields,field_description:account_analytic_required.field_account_account__analytic_policy
 msgid "Policy for analytic account"
-msgstr ""
+msgstr "Analisi-kpontuaren politika"
 
 #. module: account_analytic_required
 #: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__analytic_policy__posted
 msgid "Posted moves"
-msgstr ""
+msgstr "Argitaratutako mugimenduak"
 
 #. module: account_analytic_required
 #: model:ir.model.fields,help:account_analytic_required.field_account_account__analytic_policy
@@ -87,3 +91,9 @@ msgid ""
 "- Posted moves: The accountant will get an error message if no analytic account is defined when the move is posted.\n"
 "- Never: The accountant will get an error message if an analytic account is present."
 msgstr ""
+"Analisi-kontuaren politika ezartzen du.\n"
+"Aukerak:\n"
+"- Hutsik: kontulariak analisi-kontu bat jar dezake kontuko mugimendu-lerro batean.\n"
+"- Beti: kontulariak errore-mezu bat jasoko du analisi-konturik ez badago.\n"
+"- Argitaratutako mugimenduak: kontulariak errore-mezu bat jasoko du analisi-konturik definitu ez bada mugimendua argitaratzean.\n"
+"- Inoiz ez: kontulariak errore-mezu bat jasoko du analisi-kontu bat badago."
